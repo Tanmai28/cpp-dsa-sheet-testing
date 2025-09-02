@@ -189,7 +189,7 @@ export default function SheetPage() {
 
         {/* POTD Section */}
         <POTD potd={potd} updateStreak={updateStreak} />
-
+        
         {/* SHEET CONTENT */}
         <SheetContent
           difficultyFilter={difficultyFilter}
