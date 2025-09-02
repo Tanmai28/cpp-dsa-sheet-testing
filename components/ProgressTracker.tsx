@@ -35,7 +35,7 @@ const ProgressTracker: React.FC<ProgressTrackerProps> = ({
     <div className="mt-4">
       <div className="flex justify-between items-center mb-2">
         <span className="text-sm font-medium text-gray-600 dark:text-gray-400">
-          Completed: {solvedQuestions}/{totalQuestions}
+          Completed: ✅ {solvedQuestions}/{totalQuestions}
         </span>
         {isCompleted && <span className="text-yellow-400 animate-bounce">🎉</span>}
       </div>
